@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <title>Paul Portfolio</title>
+  </head>
+  <body>
+    <div class="container navbar">
+      <header>
+        <div class="lgo"></div>
+
+        <nav>
+          <ul>
+            <li><a class="nbar" href="#">intro</a></li>
+            <li><a class="nbar" href="#about">about me</a></li>
+            <li><a class="nbar" href="#skills">skills</a></li>
+            <li><a class="nbar" href="#work">my work</a></li>
+            <li><a class="nbar" href="#contact">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+    <div class="container main-info-section">
+      <div class="text">
+        <h1>
+          <span>H</span>
+          <span class="m-left">e</span>
+          <span class="m-left">y</span>
+          <span class="m-left">,</span>
+          <span>i</span>
+          <span class="m-left">'</span>
+          <span class="m-left">m</span>
+          <span class="name">P</span>
+          <span class="m-left name">a</span>
+          <span class="m-left name">u</span>
+          <span class="m-left name">l</span>
+          <span class="m-left name">,</span>
+          <br />
+          <span>S</span>
+          <span class="m-left">t</span>
+          <span class="m-left">u</span>
+          <span class="m-left">d</span>
+          <span class="m-left">e</span>
+          <span class="m-left">n</span>
+          <span class="m-left">t</span>
+          <span>a</span>
+          <span class="m-left">t</span>
+          <span>t</span>
+          <span class="m-left">h</span>
+          <span class="m-left">e</span>
+          <span></span>
+          <span class="m-left hm">H</span>
+          <span class="m-left hm">M</span>
+        </h1>
+        <p>HTML / CSS / JAVA / JS / MATLAB</p>
+        <a href="#contact">contact me</a>
+      </div>
+      <div class="profile-image">
+        <img class="profile" src="./img/profil_image21.png" alt="" />
+      </div>
+    </div>
+
+    <div class="container about" id="about">
+      <h1>About</h1>
+      <div class="about-me-info">
+        <p class="about-me-introduction">
+          Hallo,
+          <br />
+          <br />
+          my name is Paul Ziegemann. I am currently attending the Hochschule in
+          Munich as a Student. My main course is geodesy and computer science.
+          <br />
+          <br />
+          I am striving to become a software developer and currently looking for
+          a working student position in a tech company.
+          <br />
+          <br />
+          I started with the java for programming and matlab for data-science.
+          Over the course of my study, I began to learn a lot of new skills and
+          programming languages, such as python, dart, html, css, flutter, php
+          and javascript. <br />
+          <br />
+          If you have any questions, please feel free to contact me down below.
+          <br />
+          <br />
+          <br />
+          Thank you very much!
+        </p>
+      </div>
+      <img src="./img/dotted-shape.png" alt="" />
+    </div>
+
+    <div class="container skills" id="skills">
+      <h1>Skills</h1>
+      <p class="skills-info">Listed skills. Rating based on my own opinion.</p>
+      <div class="html">
+        <div class="tag-html">
+          <p>HMTL</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-html"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-css">
+          <p>CSS</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-css"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-js">
+          <p>JS</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-js"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-SQL">
+          <p>SQL</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-dart"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-flutter">
+          <p>Flutter</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-flutter"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-java">
+          <p>Java</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-java"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-py">
+          <p>Python</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-py"></div>
+        </div>
+      </div>
+      <div class="html">
+        <div class="tag-matlab">
+          <p>Matlab</p>
+        </div>
+        <div class="progressbar">
+          <div class="bar-matlab"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container work" id="work">
+      <h1>Work</h1>
+      <div class="work-category">
+        <button
+          id="designing"
+          class="active"
+          onclick="showRequiredCategory(this)"
+        >
+          App Development
+        </button>
+        <button id="animation" onclick="showRequiredCategory(this)">
+          Java/Python Development
+        </button>
+        <button id="project" onclick="showRequiredCategory(this)">
+          Data Analysis
+        </button>
+      </div>
+      <div class="category-designing showCategory">
+        <a href=""
+          ><img src="./img/WW_vacc.jpg" />
+          <p style="color: white; margin-left: 40px; margin-top: -20px">
+            SARS-CoV 2 - Vaccinations Visualisation Worldwide (LRZ VPN needed)
+            <br />
+            (Work in progress)
+          </p></a
+        >
+        <a href=""
+          ><img src="./img/Be_vacc.jpg" />
+          <p style="color: white; margin-left: 40px; margin-top: -20px">
+            SARS-CoV 2 - Vaccinations Visualisation Germany (LRZ VPN needed)
+            <br />
+            (Work in progress)
+          </p></a
+        >
+        <a href=""
+          ><img src="./img/Goalkeeper.png" />
+          <p style="color: white; margin-left: 50px; margin-top: -45px">
+            Fitness Performance Tracker <br />
+            (Flutter Side project)
+          </p></a
+        >
+      </div>
+      <div class="category-animation hideCategory">
+        <a href=""
+          ><img src="./img/Algo.jpg" />
+          <p style="color: white; margin-left: 40px; margin-top: -30px">
+            Alogrithms and Datastructures <br />
+            (Sort, Tree, Hash and others)
+          </p></a
+        >
+        <a href=""
+          ><img src="./img/network.jpg" />
+          <p style="color: white; margin-left: 40px; margin-top: -30px">
+            Network and Networkprogramming <br />
+            (Server and Client communication)
+          </p>
+        </a>
+      </div>
+      <div class="category-project hideCategory">
+        <a href=""
+          ><img src="./img/simBot.jpg" />
+          <p style="color: white; margin-left: 40px; margin-top: -30px">
+            Matlab Bot Navigation <br />
+            (Work in progress)
+          </p>
+        </a>
+      </div>
+    </div>
+
+    <div class="container contact" id="contact">
+      <h1>Contact</h1>
+      <form method="post" action="./php/contact-form-handler.php">
+        <input class="fname" type="text" name="name" placeholder="Full Name" />
+        <input class="fname" type="email" name="email" placeholder="Email" />
+        <input class="fname" type="text" name="subject" placeholder="Subject" />
+        <textarea
+          class="fname"
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+    </div>
+
+    <footer>
+      <hr />
+      <p>2020 Copyright&copy; All Rights Reserved</p>
+    </footer>
+
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/TimelineLite.min.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/CSSPlugin.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
