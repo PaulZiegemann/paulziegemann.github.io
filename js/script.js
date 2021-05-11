@@ -28,31 +28,31 @@ t1.fromTo(
   htmlBar,
   0.75,
   { width: `calc(0% - 6px)` },
-  { width: `calc(50% - 6px)`, ease: Power4.easeout }
+  { width: `calc(60% - 6px)`, ease: Power4.easeout }
 )
   .fromTo(
     cssBar,
     0.75,
     { width: `calc(0% - 6px)` },
-    { width: `calc(50% - 6px)`, ease: Power4.easeout }
+    { width: `calc(60% - 6px)`, ease: Power4.easeout }
   )
   .fromTo(
     jsBar,
     0.75,
     { width: `calc(0% - 6px)` },
-    { width: `calc(50% - 6px)`, ease: Power4.easeout }
+    { width: `calc(60% - 6px)`, ease: Power4.easeout }
   )
   .fromTo(
     dartBar,
     0.75,
     { width: `calc(0% - 6px)` },
-    { width: `calc(60% - 6px)`, ease: Power4.easeout }
+    { width: `calc(65% - 6px)`, ease: Power4.easeout }
   )
   .fromTo(
     flutterBar,
     0.75,
     { width: `calc(0% - 6px)` },
-    { width: `calc(50% - 6px)`, ease: Power4.easeout }
+    { width: `calc(40% - 6px)`, ease: Power4.easeout }
   )
   .fromTo(
     javaBar,
@@ -64,7 +64,7 @@ t1.fromTo(
     pythonBar,
     0.75,
     { width: `calc(0% - 6px)` },
-    { width: `calc(55% - 6px)`, ease: Power4.easeout }
+    { width: `calc(60% - 6px)`, ease: Power4.easeout }
   )
   .fromTo(
     matlabBar,
